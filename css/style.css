@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+    background: url(../img/bg-main.png) no-repeat;
+    background-size: 101% 106%;
+    height: 100vh;
+}
+.main-landing{}
+.navbar{
+	padding: 25px 0;
+}
+.navbar-brand{
+	color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand span{
+	font-weight: 400;
+}
+.navbar .navbar-nav .nav-link{
+	color: #171717;
+    font-size: 16px;
+    padding: 0 16px;
+}
+.navbar .navbar-nav .nav-link.active{
+	font-weight: 600;
+}
+
+
+/* banner sec  */
+
+.main-sec{
+	margin-top: 140px;
+}
+.main-sec h1{
+	color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: -5px;
+}
+.main-sec h1 span{
+	font-weight: 200;
+    letter-spacing: 5px;
+}
+.main-sec p{
+	color: #fff;
+	font-size: 14px;
+}
+.main-sec a{
+	background-color: #fff;
+    border-radius: 18px;
+    padding: 4px 14px;
+    color: #4b53e4;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* responsive css  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  body {
+	    font-family: 'Poppins', sans-serif;
+	    background: url(../img/bg-main.png) no-repeat;
+	    background-size: 225%;
+	    height: 100vh;
+	}
+	.main-sec {
+    	margin-top: 60px;
+	}
+	.main-sec h1 {
+	    color: #fff;
+	    font-size: 57px;
+	    font-weight: 700;
+	    line-height: 57px;
+	    letter-spacing: 0px;
+	}
+	.navbar-toggler span{
+		width: 35px;
+	    height: 34px;
+	    background-color: #eaeaea;
+	    border-radius: 5px;
+	}
+	.navbar-nav{
+		background-color: #fffffff0;
+	    border-radius: 5px;
+	    position: absolute;
+	    width: 100%;
+	    display: block;
+	}
+	.navbar-collapse{
+		position: absolute;
+	    top: 80px;
+	    width: 100%;							
+	}
+	.navbar .navbar-nav .nav-link {
+	    color: #171717;
+	    font-size: 16px;
+	    padding: 11px 16px;
+	    display: block;
+	    border-bottom: 1px solid #343434;
+	}
+    .navicon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transition: .25s ease-in-out;
+    background: #000;
+    }
+   .header-transparent .navbar-toggler span {
+    background: #fff;
+   }
+  .navicon {
+    width: 20px;
+    height: 18px;
+    position: relative;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+.navicon span:first-child {
+    top: 0;
+    }
+.navicon span:nth-child(3) {
+    top: 16px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ body {
+	    font-family: 'Poppins', sans-serif;
+	    background: url(../img/bg-main.png) no-repeat;
+	    background-size: 132%;
+	    height: 100vh;
+	}
+	.main-sec {
+    	margin-top: 60px;
+	}
+	.main-sec h1 {
+	    color: #fff;
+	    font-size: 57px;
+	    font-weight: 700;
+	    line-height: 57px;
+	    letter-spacing: 0px;
+	}
+	.navbar-toggler span{
+		width: 35px;
+	    height: 34px;
+	    background-color: #eaeaea;
+	    border-radius: 5px;
+	}
+	.navbar-nav{
+		background-color: #fffffff0;
+	    border-radius: 5px;
+	    position: absolute;
+	    width: 100%;
+	    display: block;
+	}
+	.navbar-collapse{
+		position: absolute;
+	    top: 80px;
+	    width: 100%;							
+	}
+	.navbar .navbar-nav .nav-link {
+	    color: #171717;
+	    font-size: 16px;
+	    padding: 11px 16px;
+	    display: block;
+	    border-bottom: 1px solid #343434;
+	}
+    .navicon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transition: .25s ease-in-out;
+    background: #000;
+    }
+   .header-transparent .navbar-toggler span {
+    background: #fff;
+   }
+  .navicon {
+    width: 20px;
+    height: 18px;
+    position: relative;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+.navicon span:first-child {
+    top: 0;
+    }
+.navicon span:nth-child(3) {
+    top: 16px;
+    }
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ body {
+	    font-family: 'Poppins', sans-serif;
+	    background: url(../img/bg-main.png) no-repeat;
+	    background-size: 100%;
+	    height: 100vh;
+	}
+	.main-sec {
+    	margin-top: 60px;
+	}
+	.main-sec h1 {
+	    color: #fff;
+	    font-size: 57px;
+	    font-weight: 700;
+	    line-height: 57px;
+	    letter-spacing: 0px;
+	}
+	.navbar-toggler span{
+		width: 35px;
+	    height: 34px;
+	    background-color: #eaeaea;
+	    border-radius: 5px;
+	}
+	.navbar-nav{
+		background-color: #fffffff0;
+	    border-radius: 5px;
+	    position: absolute;
+	    width: 100%;
+	    display: block;
+	}
+	.navbar-collapse{
+		position: absolute;
+	    top: 80px;
+	    width: 100%;							
+	}
+	.navbar .navbar-nav .nav-link {
+	    color: #171717;
+	    font-size: 16px;
+	    padding: 11px 16px;
+	    display: block;
+	    border-bottom: 1px solid #343434;
+	}
+    .navicon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transition: .25s ease-in-out;
+    background: #000;
+    }
+   .header-transparent .navbar-toggler span {
+    background: #fff;
+   }
+  .navicon {
+    width: 20px;
+    height: 18px;
+    position: relative;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+.navicon span:first-child {
+    top: 0;
+    }
+.navicon span:nth-child(3) {
+    top: 16px;
+    }
+   
+  
+}
